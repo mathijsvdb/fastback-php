@@ -22,5 +22,4 @@ abstract class XMLConvertable
         }
         return $result;
     }
-
 }
