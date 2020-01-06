@@ -1,0 +1,24 @@
+{
+    "name": "mathijsvdb/fastback-php",
+    "description": "API wrapper for Fastback",
+    "license": "MIT",
+    "keywords": ["PHP", "API", "Fastback"],
+    "support": {
+        "issues": "https://github.com/mathijsvdb/fastback-php/issues",
+        "source": "https://github.com/mathijsvdb/fastback-php/"
+    },
+    "authors": [
+        {
+            "name": "Mathijs Van den Broeck",
+            "email": "mathijsvandenbroeck@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-simplexml": "*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {"Fastback\\": "src"}
+    }
+}
