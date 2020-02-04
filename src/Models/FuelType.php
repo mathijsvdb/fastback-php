@@ -33,5 +33,9 @@ class FuelType extends FastbackModel
             'nl' => 'Diesel',
             'fr' => 'Diesel',
         ],
+        'HYBRIDGAS' => [
+            'nl' => 'Elektrisch/benzine',
+            'fr' => 'Electrique/essence',
+        ],
     ];
 }
