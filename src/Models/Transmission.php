@@ -13,5 +13,9 @@ class Transmission extends FastbackModel
             'nl' => 'Handgeschakeld',
             'fr' => 'Transmission manuelle',
         ],
+        'ROBOT' => [
+            'nl' => 'Geautomatiseerde manuele transmissie',
+            'fr' => 'Transmission manuelle automatisée',
+        ],
     ];
 }
