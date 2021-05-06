@@ -17,5 +17,9 @@ class Transmission extends FastbackModel
             'nl' => 'Geautomatiseerde manuele transmissie',
             'fr' => 'Transmission manuelle automatisée',
         ],
+        'CVT' => [
+            'nl' => 'Continu variabele transmissie',
+            'fr' => 'Transmission à variation continue',
+        ],
     ];
 }

@@ -10,7 +10,7 @@ class Vehicle extends XMLConvertable
     public function __construct($XMLElement, $language = null)
     {
         $converter = new XMLConverter($XMLElement, $this);
-        $converter->convertIntProperties('internal_id', 'dealer_id', 'doors', 'engine_size', 'kw', 'hp', 'fisc', 'vat_pourc', 'co2', 'mileage', 'sell_price', 'market_price', 'catalog_price', 'buy_price', 'warranty', 'owners');
+        $converter->convertIntProperties('internal_id', 'dealer_id', 'doors', 'engine_size', 'kw', 'hp', 'fisc', 'vat_pourc', 'co2', 'co2WLTP', 'mileage', 'sell_price', 'market_price', 'catalog_price', 'buy_price', 'warranty', 'owners');
         $converter->convertStringProperties('customer_id', 'type', 'make', 'model', 'version', 'body_type', 'motorisation', 'fuel_type', 'gears', 'gears_type', 'transmission', 'bodyColorStandard', 'bodyColorFactory', 'paint_type', 'interiorColor', 'seats', 'vin', 'euroNorm', 'notebook', 'warranty_label', 'options_note', 'video');
         $converter->convertDateProperties('first_reg', 'arrival_date');
         $converter->convertBoolProperties('featured', 'dealer_label');
