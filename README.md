@@ -1,6 +1,4 @@
-# PHP wrapper for the Fastback API
-
-A simple library for communicating with the [Fastback](http://fastback.be/) API.
+A simple library for reading out a [Fastback](http://fastback.be/) XML export.
 
 ## Usage
 
